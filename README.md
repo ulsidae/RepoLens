@@ -1,5 +1,7 @@
 # RepoLens
 
+https://repolens.streamlit.app/
+
 Analyze GitHub profiles using Gemini or Ollama.
 
 ---
