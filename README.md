@@ -15,7 +15,7 @@ https://repolens.streamlit.app/
 | [**✨ Features**](#0)               | Overview of RepoLens capabilities and supported AI providers.                |
 | [**⚙️ How RepoLens Works**](#1)       | Learn how RepoLens crawls GitHub profiles and generates AI-powered reports.  |
 | [**🚀 Using the Online Version**](#2) | Quick start guide for using the hosted Streamlit application.                |
-| [**🔑 Google Gemini Setup**](#3)      | Step-by-step **guide** to obtaining a free Google AI Studio API key.             |
+| [**🔑 Google Gemini Setup**](#3)      | Step-by-step *guide* to obtaining a free Google AI Studio API key.             |
 | [**🖥️ Ollama Support**](#4)          | Information for developers who prefer running RepoLens locally using Ollama. |
 | [**🏗️ Code Architecture**](#5)       | Overview of the crawler, prompt builder, AI layer, and Streamlit interface.  |
 | [**💻 Run Locally**](#6)              | Local installation and execution instructions.                               |
@@ -101,6 +101,8 @@ The good news is that **Google AI Studio provides a generous free API tier**, al
 
 ## Step 1 — Open Google AI Studio
 
+<img src="https://github.com/ulsidae/RepoLens/blob/main/img/1.png" height="400"/>
+
 Visit:
 
 https://aistudio.google.com/
@@ -110,6 +112,8 @@ Sign in with your Google account.
 ---
 
 ## Step 2 — Create an API Key
+
+<img src="https://github.com/ulsidae/RepoLens/blob/main/img/2.png" height="400"/>
 
 Open the **API Keys** page:
 
@@ -123,6 +127,8 @@ If this is your first time using Google AI Studio, you may be asked to create or
 
 ## Step 3 — Copy Your API Key
 
+<img src="https://github.com/ulsidae/RepoLens/blob/main/img/3.png" height="400"/>
+
 After the key has been generated, copy it.
 
 Keep your API key private.
@@ -130,6 +136,8 @@ Keep your API key private.
 ---
 
 ## Step 4 — Paste It into RepoLens
+
+<img src="https://github.com/ulsidae/RepoLens/blob/main/img/4.png" height="400"/>
 
 Return to RepoLens.
 
@@ -152,6 +160,8 @@ For example:
 * gemini-3.1-pro-preview
 
 Then click **Run Deep Audit**.
+
+<img src="https://github.com/ulsidae/RepoLens/blob/main/img/5.png" height="400"/>
 
 ---
 
@@ -197,7 +207,7 @@ No Google API key or external cloud service is required.
 
 ---
 
- Code Architecture
+<h2 id="5"> 🏗️ Code Architecture </h2>
 
 The application is organized into several logical components.
 
@@ -224,7 +234,7 @@ Responsibilities:
 
 ---
 
-<h2 id="5"> 🏗️ Prompt Builder </h2>
+## Prompt Builder
 
 After crawling, RepoLens combines the collected GitHub information into a structured prompt.
 
